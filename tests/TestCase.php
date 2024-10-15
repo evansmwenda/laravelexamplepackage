@@ -2,9 +2,9 @@
 
 namespace EvansMwenda\Example\Tests;
 
+use EvansMwenda\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use EvansMwenda\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {

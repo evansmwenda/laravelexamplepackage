@@ -2,9 +2,9 @@
 
 namespace EvansMwenda\Example;
 
+use EvansMwenda\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use EvansMwenda\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {
